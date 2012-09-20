@@ -15,7 +15,7 @@ public final class R {
     }
     public static final class id {
         public static final int editText1=0x7f060001;
-        public static final int empty=0x7f060000;
+        public static final int imageView1=0x7f060000;
         public static final int menu_new=0x7f060004;
         public static final int menu_open=0x7f060003;
         public static final int menu_save=0x7f060002;
