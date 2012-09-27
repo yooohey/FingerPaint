@@ -299,10 +299,12 @@ public class FingerPaintActivity extends Activity implements OnTouchListener{
 	@Override
 	protected void onActivityResult(int requestCode, int resultCode, Intent data){
 		super.onActivityResult(requestCode, resultCode, data);
-		bitmap = loadImage(data.getStringExtra("fn"));
-		canvas = new Canvas(bitmap);
-		ImageView iv = (ImageView)this.findViewById(R.id.imageView1);
-		iv.setImageBitmap(bitmap);
+		if (resultCode == RESULT_OK) {
+			bitmap = loadImage(data.getStringExtra("fn"));
+			canvas = new Canvas(bitmap);
+			ImageView iv = (ImageView) this.findViewById(R.id.imageView1);
+			iv.setImageBitmap(bitmap);
+		}
 	}
 
 
