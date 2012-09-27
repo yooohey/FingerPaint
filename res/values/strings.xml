@@ -7,5 +7,20 @@
     <string name="menu_save">保存</string>
     <string name="menu_open">開く</string>
     <string name="menu_new">新規作成</string>
+    <string name="menu_end">とじる</string>
+    <string name="menu_revert">もどる</string>
 
+    <string name="button_up">上のフォルダー</string>
+    <string name="menu_import">ファイルの読み込み</string>
+    <string name="menu_export">ファイルに保存</string>
+    <string name="filelist_empty">ファイルがありません。</string>
+    <string name="toast_no_external_storage">外部ストレージが使用できません</string>
+    <string name="menu_encode">エンコード</string>
+    <string name="menu_sjis">SJIS</string>
+    <string name="menu_color_change">色の変更</string>
+    <string name="confirm_new">現在の作業内容が失われます。よろしいですか。</string>
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">キャンセル</string>
+    <string name="title_exit">終了</string>
+    
 </resources>
